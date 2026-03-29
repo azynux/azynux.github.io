@@ -1,0 +1,93 @@
+baseURL: "https://azynux.github.io/"
+languageCode: "fr-fr"
+title: "azynux | Blue Team & Security Research"
+theme: "PaperMod"
+
+# Nombre d'articles en page d'accueil
+paginate: 10
+
+# Activer la recherche
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  # Mode sombre par défaut
+  defaultTheme: "dark"
+  # Permettre le switch light/dark
+  ShowThemeToggle: true
+
+  # Infos affichées sur chaque article
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true # Table of contents sur les write-ups
+
+  # Page d'accueil — mode profile
+  homeInfoParams:
+    Title: "Blue Team | Purple Mindset"
+    Content: >
+      Analyste sécurité en formation, orienté CERT/DFIR.
+      Je documente ici mes write-ups CTF (avec un volet détection),
+      mes travaux blue team, et ma veille threat intelligence.
+    # ← Personnalise ce texte
+
+  # Liens sociaux affichés en page d'accueil
+  socialIcons:
+    - name: github
+      url: "https://github.com/azynux"
+    - name: linkedin
+      url: "https://linkedin.com/in/TONLINKEDIN"
+    # - name: twitter
+    #   url: "https://twitter.com/TONPSEUDO"
+
+  # Recherche
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# Menu de navigation
+menu:
+  main:
+    - identifier: ctf-writeups
+      name: "CTF Write-ups"
+      url: /tags/ctf/
+      weight: 10
+    - identifier: blue-team
+      name: "Blue Team / DFIR"
+      url: /tags/blue-team/
+      weight: 20
+    - identifier: veille
+      name: "Veille & Threat Intel"
+      url: /tags/threat-intel/
+      weight: 30
+    - identifier: about
+      name: "À propos"
+      url: /about/
+      weight: 40
+    - identifier: search
+      name: "Recherche"
+      url: /search/
+      weight: 50
+
+# Taxonomies pour organiser le contenu
+taxonomies:
+  tag: tags
+  category: categories
+
+# Coloration syntaxique
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: "monokai" # Thème sombre pour le code
