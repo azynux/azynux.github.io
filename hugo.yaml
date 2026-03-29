@@ -4,7 +4,7 @@ title: "azynux | Blue Team & Security Research"
 theme: "PaperMod"
 
 # Nombre d'articles en page d'accueil
-paginate: 10
+pagination.pagerSize: 10
 
 # Activer la recherche
 outputs:
