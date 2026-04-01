@@ -1,7 +1,7 @@
 ---
 title: "DFIR — Titre de l'analyse"
 date: 2026-03-27
-draft: false
+draft: true
 tags: ["blue-team", "dfir", "forensic"]
 categories: ["Blue Team"]
 summary: "Brève description de l'analyse ou du challenge."
