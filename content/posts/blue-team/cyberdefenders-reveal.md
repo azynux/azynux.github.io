@@ -2,7 +2,7 @@
 title: "CyberDefenders — Reveal : analyse mémoire d'une attaque StrelaStealer"
 date: 2026-03-30T10:00:00+02:00
 draft: false
-tags: ["ctf", "dfir", "forensic", "blue-team", "malware-analysis", "sigma", "windows", "volatility"]
+tags: ["cyberdefenders", "dfir", "forensic", "blue-team", "malware-analysis", "sigma", "windows", "volatility"]
 categories: ["Blue Team"]
 summary: "Analyse d'un dump mémoire Windows avec Volatility 3 dans le cadre d'un incident sur un poste financier. Identification d'une chaîne d'exécution PowerShell → WebDAV → rundll32 aboutissant au déploiement de StrelaStealer, un infostealer ciblant les clients mail."
 ShowToc: true

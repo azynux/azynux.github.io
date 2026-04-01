@@ -23,4 +23,4 @@ Je pratique régulièrement des CTF offensifs et défensifs, non pas par dispers
 ## Me contacter
 
 - [GitHub](https://github.com/azynux)
-- [LinkedIn](https://linkedin.com/in/TONLINKEDIN)
+- [LinkedIn](https://linkedin.com/in/ibrahima-diallo-55969b207)
