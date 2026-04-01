@@ -1,7 +1,7 @@
 ---
 title: "HTB — NomDeLaBox"
 date: 2026-03-27
-draft: false
+draft: true
 tags: ["ctf", "htb", "linux", "privesc"]
 # ↑ Adapte les tags : htb/thm/root-me, linux/windows, techniques utilisées
 categories: ["CTF Write-ups"]
